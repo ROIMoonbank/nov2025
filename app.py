@@ -12,7 +12,7 @@ fake = Faker()
 
 @app.route("/")
 def getRoot():
-  return "ROI Moonbank Demo is working! Updated by Grant\n"
+  return "ROI Moonbank Demo 2.0 is working! Updated by Grant\n"
 
 @app.route("/headers")
 def show_headers():
@@ -37,7 +37,7 @@ def getRandomName():
 
 @app.route("/version")
 def version():
-  return "ROI Training Demo 1.0\n"
+  return "ROI Training Demo 2.0\n"
 
 if __name__ == "__main__":
   serve(app,host="0.0.0.0",port=int(os.environ.get("PORT", 8080)))
