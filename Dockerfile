@@ -1,5 +1,5 @@
 # Assume a linux kernel
-FROM python:3.13
+FROM python:3.14
 COPY requirements.txt /app/requirements.txt
 WORKDIR /app
 RUN pip3 install --root-user-action=ignore --upgrade pip
